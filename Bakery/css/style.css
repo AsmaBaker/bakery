@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Modak', cursive;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.position {
+    background-color:white;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    width: 50px;
+    height: 100px;
+    padding-left: auto ;
+    border-radius: 5%;
+    color: #666666;
+    font-size: 35px;
+} 
+
+.position ul {
+    list-style: none;
+    }
+    
+
+.header{
+    background-image:url(../image/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+.header .nav{
+    padding-top: 30px;
+}
+.header .nav .logo{
+ width: 40%;
+ float:left;
+}
+.header .nav .logo img{
+    width: 50%;
+}
+.header .nav .navbar{
+    float: left;
+    width: 60%;
+}
+.header .nav .navbar ul{
+    list-style: none;
+    overflow: hidden;
+} 
+.header .nav .navbar :hover {
+    color: burlywood;
+}
+.header .nav .navbar ul li {
+    float: left;
+    padding: 0 20px;
+}
+.header .nav .navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header .header-content{
+    text-align: center;
+    padding-top: 250px;
+    color: white;   
+}
+.header .header-content h1{
+    font-size: 50px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.header .header-content p{
+    font-size: 20px;
+}
+.header .header-content .button{
+    margin-top: 40px;
+}
+.header .header-content .button :hover {
+    background-color: cornsilk;
+    color: rgb(41, 36, 36);
+}
+.header .header-content .button a{
+    color:#ffff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+
+}
+.header .header-content a.learn {
+   background-color: #8E7754;
+   border:0 ;   
+}
+
+.who {
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+.who .who-img {
+    float: left;
+    width: 50%;
+}
+.who .who-img img{
+  width: 100%;
+  width:550px;
+  height: 550px;
+}
+.who .who-content {
+    float: left;
+    width: 50%;
+    line-height: 30px;
+   margin-top: 70px;
+   padding-left: 70px; ;
+}
+.who .who-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #303030;
+}
+.who .who-content p {
+    color: #686868;
+}
+.who .who-content ul li {
+    line-height:10px;
+    color: #686868;
+}
+.who .who-content ul {
+    list-style: none;
+}
+.who .who-content ul i {
+
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: 1px solid #b9b3b3;
+    border-radius: 50%;
+   
+}
+
+
+.location{
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+.location .location-content{
+float: left;
+width: 50%;
+padding-top: 20px;
+}
+.location .location-content h2 {
+margin-bottom: 20px;
+margin-top: 100px;
+color: #303030;
+}
+.location .location-content p {
+overflow: hidden;
+line-height: 30px;
+padding-top: 20px;
+color: #686868;
+}
+.location .location-img{
+float: left;
+width: 50%;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.location .location-img img {
+    width: 100%;
+}
+
+.baking {
+margin-top: 50px;
+}
+.baking .baking-head {
+text-align: center;
+margin-top: 50px;
+line-height: 50px;
+}
+.baking .baking-head h3 {
+  color: #303030;
+}
+.baking .baking-head p {
+    color: #686868;
+}
+.baking .baking-content {
+    margin-top:70px ;
+} 
+.baking .baking-content .Superior-Breads{
+float: left;
+width: 30%;
+margin-right: 40px;
+text-align: center;
+line-height: 30px;
+}
+.baking .baking-content .Superior-Breads h3{
+    color: #303030;
+}
+.baking .baking-content .Superior-Breads p{
+  color: #686868;
+}
+.baking .baking-content .Superior-Breads img{
+width: 100%;
+}
+.baking .baking-content .Bagels {
+float: left;
+width: 30%;
+margin-right: 40px;
+text-align: center;
+line-height: 30px;
+}  
+.baking .baking-content .Bagels h3 {
+color: #303030;
+}
+.baking .baking-content .Bagels p {
+    color: #686868;
+}
+.baking .baking-content .Bagels img{
+    width: 100%;
+}
+.baking .baking-content  .Cookies {
+float: left;
+width:30%;
+text-align: center;
+line-height: 30px;
+
+}
+.baking .baking-content .Cookies h3 {
+    color: #303030;
+    }
+.baking .baking-content .Cookies p {
+    color: #686868;
+    }
+.baking .baking-content  .Cookies img {
+    width: 100%;
+}
+
+.contact-information {
+  margin-top: 50px;
+  background-color:#f8f8f8;
+  padding-bottom: 40px;
+}
+.contact-information .contact-content {
+   margin-top: 30px;
+   line-height: 50px;
+   padding-top: 50px;
+   float: left;
+   width: 50%;
+}
+.contact-information .contact-content h2 {
+    color: #303030;
+}
+.contact-information .contact-content p {
+    color: #686868;
+}
+.contact-information .contact-content  ul {
+   list-style: none;
+   color: #686868;
+}
+.contact-information .contact-content i{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding : 10px 10px;
+    color: white;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: #8e7745;
+}
+.contact-information .contact-map {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.aaa {
+   background-color: #403D38; 
+   padding-top: 50px;
+   padding-bottom: 50px;
+} 
+.aaa .about {
+    float: left;
+    width: 24%;
+    margin-right: 20px;
+    line-height:30px;
+}
+.aaa .about h4 {
+    color: #ffff
+}
+
+.aaa .about p {
+    margin-top:20px;
+    color: #686868;
+}
+.aaa .special {
+    float: left;
+    width: 24%;
+    line-height:45px;
+}
+.aaa .special h4 {
+    color: #ffff;
+}
+.aaa .special ul {
+    list-style: none;
+    color: #686868;
+}
+.aaa .special ul li {
+    border-bottom: 1px solid rgba(255, 255,255, 0.05);
+}
+.aaa .Opening {
+    float: left;
+    width: 24%;
+    line-height: 45px;
+}
+.aaa .Opening h4 {
+    color: #ffff;
+}
+.aaa .Opening ul {
+    list-style: none;
+    color: #686868;
+}
+.aaa .Opening ul li {
+    border-bottom: 1px solid rgba(255, 255,255, 0.05);
+}
+.aaa .Contact-Details {
+    float: left;
+    width: 24%;
+    line-height: 45px;
+    background-image:url(../image/contact-details-map.png);
+    background-repeat: no-repeat;
+}
+.aaa .Contact-Details h4 {
+    color: #f8f8f8;
+}
+.aaa .Contact-Details ul {
+    list-style: none;
+    color: #686868;
+}
+ .aaa .Contact-Details ul li {
+    border-bottom: 1px solid rgba(255, 255,255, 0.05);
+ }
+
+.end {
+    background-color: #353332;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.end p {
+    margin-top: 40px;
+    color: #686868;
+}
+.end li {
+    list-style: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #797777;
+    border: 1px;
+    border-radius: 50%;
+    background-color: #484540;
+}
